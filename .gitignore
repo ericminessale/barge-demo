@@ -1,7 +1,5 @@
-# drop this in .gitignore
-@"
 *
 !.gitignore
 !.env.example
 !barge_demo.py
-"@ | Out-File -Encoding utf8 .gitignore
+!README.md
